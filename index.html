@@ -1,0 +1,422 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="FW Haute landing page for premium jewellery with curated product collections."
+    />
+    <title>FW Haute | Jewellery</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="topbar">
+        <a class="brand" href="#">FW Haute</a>
+        <nav class="main-nav" id="siteNav" aria-label="Primary navigation">
+          <a href="#shop">Shop</a>
+          <a href="#new">Featured Items</a>
+          <a href="#collections">Collections</a>
+          <a href="#story">Our Story</a>
+          <a href="#journal">Journal</a>
+          <a href="#newsletter">Contact</a>
+        </nav>
+        <button class="nav-toggle" aria-expanded="false" aria-controls="siteNav" aria-label="Open navigation menu">
+          <span>Menu</span>
+        </button>
+      </header>
+
+      <section class="hero">
+        <div class="hero-media" aria-hidden="true"> 
+            <img
+            src="images/necklace-1.svg"
+            alt="Model wearing sculpted luxury jewellery"
+            loading="eager"
+          />
+        </div>
+        <div class="hero-content">
+          <p class="eyebrow">Modern Jewellery Essentials</p>
+          <h1>FW Haute</h1>
+          <p>
+            Designed for soft elegance, FW Haute brings refined silhouettes and tactile metallic finishes
+            to everyday luxury.
+          </p>
+          <div class="hero-cta">
+            <a href="#shop" class="btn btn-primary">Explore New Collection</a>
+            <a href="#story" class="btn btn-secondary">Read Story</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="shop" class="section">
+        <div class="carousel carousel--fullbleed" data-carousel="shop" aria-label="Featured products carousel">
+          <button class="carousel-btn prev" data-action="prev" aria-label="Previous product">◀</button>
+          <div class="carousel-track" role="region" aria-live="polite">
+            <article class="product-card">
+              <div class="image-frame">
+                <span class="product-badge">New</span>
+                <img
+                  src="images/necklace-1.svg"
+                  alt="Necklace style jewellery on soft fabric"
+                  loading="lazy"
+                />
+              </div>
+              <div class="product-copy">
+                <h3>Necklace</h3>
+                <p class="price">From £129</p>
+              </div>
+            </article>
+            <article class="product-card">
+              <div class="image-frame">
+                <span class="product-badge">New</span>
+                <img
+                  src="images/earrings-1.svg"
+                  alt="Layered pendant and pearl chain necklace"
+                  loading="lazy"
+                />
+              </div>
+              <div class="product-copy">
+                <h3>Earrings</h3>
+                <p class="price">From £89</p>
+              </div>
+            </article>
+            <article class="product-card">
+              <div class="image-frame">
+                <span class="product-badge">New</span>
+                <img
+                  src="images/bangles-1.svg"
+                  alt="Bangle bracelet in brushed gold tone"
+                  loading="lazy"
+                />
+              </div>
+              <div class="product-copy">
+                <h3>Bangles</h3>
+                <p class="price">From £92</p>
+              </div>
+            </article>
+            <article class="product-card">
+              <div class="image-frame">
+                <img
+                  src="images/bracelets-1.svg"
+                  alt="Pair of refined bracelets on cream background"
+                  loading="lazy"
+                />
+              </div>
+              <div class="product-copy">
+                <h3>Bracelets</h3>
+                <p class="price">From £74</p>
+              </div>
+            </article>
+            <article class="product-card">
+              <div class="image-frame">
+                <img
+                  src="images/rings-1.svg"
+                  alt="Stackable ring pair with warm finish"
+                  loading="lazy"
+                />
+              </div>
+              <div class="product-copy">
+                <h3>Rings</h3>
+                <p class="price">From £65</p>
+              </div>
+            </article>
+          </div>
+          <button class="carousel-btn next" data-action="next" aria-label="Next product">▶</button>
+          <div class="dots" aria-hidden="true"></div>
+        </div>
+        <div class="shop-footer">
+          <a class="inline-link" href="#">See All Items</a>
+        </div>
+      </section>
+
+      <section id="new" class="section">
+        <div class="section-header">
+          <div>
+            <p class="eyebrow">Fresh From Atelier</p>
+            <h2>Featured Items</h2>
+          </div>
+          <a class="inline-link" href="#">View the edit</a>
+        </div>
+        <div class="carousel carousel--fullbleed" data-carousel="new" aria-label="Featured arrivals carousel">
+          <div class="carousel-track" role="region" aria-live="polite">
+            <article class="product-card">
+              <div class="image-frame">
+                <span class="product-badge">New</span>
+                <img
+                  src="images/pendants-1.svg"
+                  alt="Pendant chain with soft gold finish"
+                  loading="lazy"
+                />
+              </div>
+              <div class="product-copy">
+                <p class="eyebrow">Pendants</p>
+                <h3>Solaris Pendant Set</h3>
+                <p class="price">£168</p>
+              </div>
+            </article>
+            <article class="product-card">
+              <div class="image-frame">
+                <img
+                  src="images/necklace-1.svg"
+                  alt="Elegant pair of ring jewelry"
+                  loading="lazy"
+                />
+              </div>
+              <div class="product-copy">
+                <p class="eyebrow">Rings</p>
+                <h3>Maison Ring Pair</h3>
+                <p class="price">£89</p>
+              </div>
+            </article>
+            <article class="product-card">
+              <div class="image-frame">
+                <img
+                  src="images/bangles-1.svg"
+                  alt="Gold bracelet closeup"
+                  loading="lazy"
+                />
+              </div>
+              <div class="product-copy">
+                <p class="eyebrow">Bracelets</p>
+                <h3>Marin Bracelet</h3>
+                <p class="price">£122</p>
+              </div>
+            </article>
+            <article class="product-card">
+              <div class="image-frame">
+                <img
+                  src="images/bracelets-1.svg"
+                  alt="Long layered earrings"
+                  loading="lazy"
+                />
+              </div>
+              <div class="product-copy">
+                <p class="eyebrow">Earrings</p>
+                <h3>Echo Dangles</h3>
+                <p class="price">£74</p>
+              </div>
+            </article>
+            <article class="product-card">
+              <div class="image-frame">
+                <img
+                  src="images/earrings-1.svg"
+                  alt="Pearl and gold layered necklace pendant"
+                  loading="lazy"
+                />
+              </div>
+              <div class="product-copy">
+                <p class="eyebrow">Pendants</p>
+                <h3>Lace Pearl Set</h3>
+                <p class="price">£149</p>
+              </div>
+            </article>
+            <article class="product-card">
+              <div class="image-frame">
+                <span class="product-badge">New</span>
+                <img
+                  src="images/bracelets-1.svg"
+                  alt="Artful bracelet stack in gold and matte tones"
+                  loading="lazy"
+                />
+              </div>
+              <div class="product-copy">
+                <p class="eyebrow">Bracelets</p>
+                <h3>Atlas Cuff Trio</h3>
+                <p class="price">£118</p>
+              </div>
+            </article>
+            <article class="product-card">
+              <div class="image-frame">
+                <img
+                  src="images/rings-1.svg"
+                  alt="Single statement ring on soft fabric"
+                />
+              </div>
+              <div class="product-copy">
+                <p class="eyebrow">Rings</p>
+                <h3>Halo Ring</h3>
+                <p class="price">£98</p>
+              </div>
+            </article>
+            <article class="product-card">
+              <div class="image-frame">
+                <img
+                  src="images/pendants-1.svg"
+                  alt="Gold-toned bangle silhouette"
+                />
+              </div>
+              <div class="product-copy">
+                <p class="eyebrow">Bangles</p>
+                <h3>Solstice Stack</h3>
+                <p class="price">£134</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="collections" class="section">
+        <div class="section-header">
+          <div>
+            <p class="eyebrow">Curated by mood</p>
+            <h2>Collections</h2>
+          </div>
+          <p>Curated categories for every mood and moment.</p>
+        </div>
+        <div class="carousel" data-carousel="collections" aria-label="Collections carousel">
+          <button class="carousel-btn prev" data-action="prev" aria-label="Previous product">◀</button>
+          <div class="carousel-track">
+            <article class="product-card">
+              <div class="image-frame">
+                <img
+                  src="images/earrings-1.svg"
+                  alt="Necklace stack in warm tone"
+                  loading="lazy"
+                />
+              </div>
+              <div class="product-copy">
+                <p class="eyebrow">Necklaces</p>
+                <h3>Maison Necks</h3>
+                <p class="price">From £95</p>
+              </div>
+            </article>
+            <article class="product-card">
+              <div class="image-frame">
+                <img
+                  src="images/rings-1.svg"
+                  alt="Stackable bangles"
+                  loading="lazy"
+                />
+              </div>
+              <div class="product-copy">
+                <p class="eyebrow">Bracelets</p>
+                <h3>Stacked Cuffs</h3>
+                <p class="price">From £62</p>
+              </div>
+            </article>
+            <article class="product-card">
+              <div class="image-frame">
+                <img
+                  src="images/rings-1.svg"
+                  alt="Minimal watch and ring style"
+                  loading="lazy"
+                />
+              </div>
+              <div class="product-copy">
+                <p class="eyebrow">Timepieces</p>
+                <h3>Minimal Hours</h3>
+                <p class="price">From £210</p>
+              </div>
+            </article>
+            <article class="product-card">
+              <div class="image-frame">
+                <img
+                  src="images/bracelets-1.svg"
+                  alt="Layered pearl strands"
+                  loading="lazy"
+                />
+              </div>
+              <div class="product-copy">
+                <p class="eyebrow">Pearls</p>
+                <h3>Pearl Stack</h3>
+                <p class="price">From £138</p>
+              </div>
+            </article>
+            <article class="product-card">
+              <div class="image-frame">
+                <img
+                  src="images/bracelets-1.svg"
+                  alt="Minimal gold wedding-inspired chain"
+                  loading="lazy"
+                />
+              </div>
+              <div class="product-copy">
+                <p class="eyebrow">Wedding</p>
+                <h3>Weddings Edit</h3>
+                <p class="price">From £220</p>
+              </div>
+            </article>
+          </div>
+          <button class="carousel-btn next" data-action="next" aria-label="Next product">▶</button>
+          <div class="dots" aria-hidden="true"></div>
+        </div>
+      </section>
+
+      <section id="journal" class="section editorial-band">
+        <div class="story-card">
+          <h2>FW Journal</h2>
+          <p>
+            Styling notes, seasonal guides, and the stories behind the stones and silvers we choose.
+          </p>
+          <a class="inline-link" href="#">Read latest article</a>
+        </div>
+      </section>
+
+      <section class="trust-strip">
+        <article>
+          <p class="eyebrow">Shipping</p>
+          <h3>Complimentary Delivery</h3>
+        </article>
+        <article>
+          <p class="eyebrow">Returns</p>
+          <h3>100-day returns</h3>
+        </article>
+        <article>
+          <p class="eyebrow">Care</p>
+          <h3>Complimentary engraving</h3>
+        </article>
+      </section>
+
+      <section id="story" class="section muted">
+        <div class="story-grid">
+          <div>
+            <h2>About FW Haute</h2>
+            <p>
+              FW Haute is built around the idea that beauty is measured in restraint. Our pieces are
+              lightweight, wearable, and made to travel across city life and evening events alike.
+            </p>
+          </div>
+          <div class="story-highlights">
+            <article>
+              <h3>Craft-first</h3>
+              <p>Balanced symmetry, hand-finished edges, and premium clasps for comfort.</p>
+            </article>
+            <article>
+              <h3>Material Integrity</h3>
+              <p>Nickel-safe options, tarnish-aware finishes, and consistent care guidance.</p>
+            </article>
+            <article>
+              <h3>Quiet confidence</h3>
+              <p>Timeless designs that sit naturally with your personal style.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="newsletter" class="newsletter">
+        <h2>Get collection updates</h2>
+        <p>Subscribe for launch alerts and style stories.</p>
+        <form>
+          <label class="sr-only" for="email">Email address</label>
+          <div class="form-row">
+            <input id="email" type="email" name="email" placeholder="you@example.com" required />
+            <button class="btn btn-primary" type="submit">Join</button>
+          </div>
+        </form>
+      </section>
+
+      <footer>
+        <small>© <span id="year"></span> FW Haute. All rights reserved.</small>
+      </footer>
+    </div>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>
