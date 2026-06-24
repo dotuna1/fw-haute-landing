@@ -139,10 +139,15 @@ input:focus-visible {
 .hero-content {
   display: grid;
   align-content: center;
-  background: var(--panel);
-  border-radius: var(--radius-outer);
-  padding: clamp(1.4rem, 3.5vw, 2.3rem);
-  box-shadow: inset 0 0 0 1px var(--border);
+  justify-items: start;
+  gap: 0.9rem;
+  padding: clamp(0.4rem, 2.5vw, 1rem);
+}
+
+.hero-logo {
+  display: block;
+  width: clamp(220px, 32vw, 360px);
+  height: auto;
 }
 
 .eyebrow {
